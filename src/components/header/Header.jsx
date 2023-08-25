@@ -7,8 +7,9 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 
-import ContentWrapper from "../contentWrapper/contentWrapper";
+
 import logo from "../../assets/movix-logo.svg";
+import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 const Header = () => {
 
@@ -72,13 +73,13 @@ const Header = () => {
   return (
     <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
       <ContentWrapper>
-        <div className="logo">
+        <div className="logo" onClick={() => navigate("/")}>
           <img src={logo} alt="" />
         </div>
         <ul className="menuItems">
           <li
             className="menuItem"
-            onClick={() => navigationHandler("movies")}
+            onClick={() => navigationHandler("movie")}
           >
             Movies
           </li>

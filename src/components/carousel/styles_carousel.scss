@@ -70,6 +70,7 @@
       }
 
       flex-shrink: 0;
+
       .posterBlock {
         border-radius: 12px;
         width: 100%;
@@ -105,7 +106,6 @@
     margin-left: -20px;
 
     padding: 0 20px;
-
 
     @include md {
       gap: 20px;
