@@ -50,7 +50,7 @@ const HeroBanner = () => {
       <ContentWrapper>
 
         <div className="heroBannerContent">
-          <span className="title">Welcome.</span>
+          <span className="title">Welcome</span>
           <span className="subtitle">
             Millions of movies, TV shows and people to discover.
             Explore Now.
@@ -58,7 +58,6 @@ const HeroBanner = () => {
 
           <div className="searchInput">
             <input
-              src=""
               type="text"
               placeholder="Search for a movie or a TV show..."
               onChange={(e) => setQuery(e.target.value)}

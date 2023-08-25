@@ -34,7 +34,6 @@
     }
   }
 
-
   .carouselLeftNav {
     left: 30px;
   }
@@ -96,9 +95,7 @@
     }
   }
 
-
   .carouselItems {
-  
     display: flex;
     gap: 10px;
     overflow-y: hidden;
@@ -139,6 +136,12 @@
         align-items: flex-end;
         justify-content: space-between;
         padding: 10px;
+        transition: all;
+        transition-duration: 200ms;
+
+        &:hover {
+          transform: scale(1.05);
+        }
 
         .lazy-load-image-background {
           position: absolute;
@@ -194,7 +197,7 @@
           line-height: 24px;
 
           @include ellipsis(1);
-          
+
           @include md {
             font-size: 20px;
           }
