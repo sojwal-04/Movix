@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import SwitchTabs from "../../../components/switchTabs/SwitchTabs"
 import useFetch from "../../../hooks/useFetch";
 import Carousel from "../../../components/carousel/Carousel";
+import ContentWrapper from "../../../components/contentWrapper/contentWrapper";
 
 
 const Popular = () => {

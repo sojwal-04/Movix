@@ -9,12 +9,13 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+
 
 import PosterFallback from "../../assets/no-poster.png";
 import Img from "../lazyLoadingImage/Img";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
+import ContentWrapper from "../contentWrapper/contentWrapper";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
 
@@ -55,6 +56,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
   return (
     <div className="carousel">
       <ContentWrapper>
+
 
         {
           title &&

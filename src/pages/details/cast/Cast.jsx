@@ -3,10 +3,11 @@ import "./styles_cast.scss";
 import { useSelector } from "react-redux";
 
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+
 
 import Img from "../../../components/lazyLoadingImage/Img";
 import avatar from "../../../assets/avatar.png";
+import ContentWrapper from "../../../components/contentWrapper/contentWrapper";
 
 const Cast = ({ data, loading }) => {
 
