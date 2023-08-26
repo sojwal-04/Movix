@@ -16,9 +16,10 @@
     padding: 0 20px;
     @include md {
       margin: 0;
-      padding: 0;
+      padding: 0 10px;
     }
     .listItem {
+      padding-top: 8px;
       text-align: center;
       color: white;
 

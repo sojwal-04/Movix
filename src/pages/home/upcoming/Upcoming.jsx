@@ -13,7 +13,7 @@ const Upcoming = () => {
   const onTabChange = (tab) => {
     setEndPoint(tab === "Movies" ? "movie" : "");
   };
-  // console.log("upcoming");
+  console.log("upcoming");
   console.log(endPoint, " : ", data);
 
   return (
@@ -32,6 +32,8 @@ const Upcoming = () => {
       <Carousel
         data={data?.results}
         loading={loading}
+        endpoint={endPoint}
+        
       />
 
     </div>
