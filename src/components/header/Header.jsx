@@ -9,7 +9,8 @@ import { VscChromeClose } from "react-icons/vsc";
 
 
 import logo from "../../assets/movix-logo.svg";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../contentWrapper/contentWrapper";
+
 
 const Header = () => {
 
